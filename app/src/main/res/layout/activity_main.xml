@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/button_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Номер группы - ?" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/banner_content"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="62dp"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:id="@+id/master_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Здесь ваш контент -->
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/banner_content"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <!-- Здесь контент баннера -->
+
+    </LinearLayout>
+
+</RelativeLayout>
