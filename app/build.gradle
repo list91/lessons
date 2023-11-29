@@ -34,8 +34,9 @@ android {
 dependencies {
     //noinspection MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion
     implementation 'androidx.cardview:cardview:1.0.0'
-    //noinspection MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion
-    implementation 'com.yandex.android:mobileads:6.0.1'
+    //noinspection MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion,MobileAdsSdkOutdatedVersion
+    implementation 'com.yandex.android:mobileads:6.2.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
     implementation 'org.jsoup:jsoup:1.14.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'org.apache.poi:poi:4.1.2'

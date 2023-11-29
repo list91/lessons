@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        LinkExtractorTask task = new LinkExtractorTask();
-        task.execute("https://www.altspu.ru/schedule/students/s-437/?year=2023&week=49");
+//        LinkExtractorTask task = new LinkExtractorTask();
+//        task.execute("https://www.altspu.ru/schedule/students/s-437/?year=2023&week=49");
 
         // Запуск AsyncTask
-//        new ParserWebTask().execute();
+        new ParserWebTask().execute();
 
         createBanner();
         loadBanner();
